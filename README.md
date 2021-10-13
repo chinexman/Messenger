@@ -2,7 +2,6 @@
 PERN stack is used for this application
 A one-to-one realtime chat app.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 ## Initial Setup
 
@@ -14,7 +13,7 @@ CREATE DATABASE messenger;
 \q
 ```
 
-Update db.js to connect with your local PostgreSQL set up. The [Sequelize documentation](https://sequelize.org/master/manual/getting-started.html) can help with this.
+Update db.js to connect with your local PostgreSQL set up. 
 
 Create a .env file in the server directory and add your session secret (this can be any string):
 
